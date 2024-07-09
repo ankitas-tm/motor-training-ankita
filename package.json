@@ -1,0 +1,23 @@
+{
+  "name": "timezone",
+  "version": "1.0.0",
+  "description": "utility to convert time zones",
+  "main": "add.js",
+  "scripts": {
+    "start": "node add.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitas-tm/motor-training-ankita.git"
+  },
+  "author": "As",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankitas-tm/motor-training-ankita/issues"
+  },
+  "homepage": "https://github.com/ankitas-tm/motor-training-ankita#readme",
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}
