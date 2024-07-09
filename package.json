@@ -5,7 +5,8 @@
   "main": "add.js",
   "scripts": {
     "start": "node add.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "myCustomScript": "node example.js samson"
   },
   "repository": {
     "type": "git",
