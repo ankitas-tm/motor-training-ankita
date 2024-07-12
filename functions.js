@@ -58,4 +58,23 @@ var objectLength = function(obj) {
 };
 
 var objectSize = objectLength(student);
-console.log('Size of the current object : '+objectSize);
+console.log('Size of the current object : '+objectSize); //Size of the current object : 3
+
+
+//push in object new value
+function allKeys(obj) {
+    if (!isObject(obj)) return [];
+    var keys = [];
+    for (var key in obj) keys.push(key);
+    return keys;
+}
+function isObject(obj) 
+{
+    var type = typeof obj;
+    return type === 'function' || type === 'object' && !!obj;
+  }
+function student(name) {
+  this.name = name;
+}
+student.rollno = true;
+console.log(allKeys(student("Sara")));
